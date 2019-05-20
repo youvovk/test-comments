@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sitr for comment</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <header>
+                    <section class="header__wrapper">
+
+                            <div class="header__logo"><img src="img/logo.png" alt=""></div>
+
+                            <div class="nav-menu">
+                                <nav class="desktop">
+                                    <section class="topnav" id="mytopnav_desktop">
+                                        <a href="#about__us">ABOUT US</a>
+                                        <a href="#write__comment">WRITE COMMENT</a>
+                                        <a href="comments__all.html">COMMENTS</a>
+                                    </section>
+                                </nav>
+
+                                <nav class="mobile">
+                                    <section class="topnav" id="mytopnav_mobile">
+
+                                        <div class="toggle-button" id="toggle-button">&#9776;</div>
+                                        <div class="toggle-menu" id="toggle-menu">
+                                            <ul>
+                                                <li><a href="#about__us">ABOUT US</a></li>
+                                                <li><a href="#write__comment">WRITE COMMENT</a></li>
+                                                <li><a href="comments__all.html">COMMENTS</a></li>
+                                            </ul>
+                                        </div>
+                                    </section>
+                                </nav>
+                            </div>
+                    </section>
+            </header>
+        </div>
+    </div>
+    
+    <main>
+
+        <section class="main__container">
+            <div class="main__wrapper">
+                <div class="main__text">
+                    <h1>
+                        <p>Lorem Ipsum is simply</p>
+                        <p>dummy text of the printing</p>
+                        <p>and typesetting industry</p>
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+            <div class="main__img">
+                <img src="img/office__photo.png" alt="">
+            </div>
+
+        <div class="container">
+            <div id="about__us" class="grid">
+                <div class="grid container">
+                       <div class="grid_wrap">
+                            <div class="grid_item">
+                                <div class="item__img">
+                                    <img src="img/1.png">
+                                </div>
+                                <h3 class="item__title">Who we are</h3>
+                                <div class="item__text">
+                                    <ul>
+                                        <li>It is a long establiched fact that a reader will be distracted</li>
+                                        <li>The readable content of a page when lookong at its layout</li>
+                                        <li>The point of using Lorem Ipsum</li>
+                                        <li>As opposed to using 'Content here, content here'.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid_wrap">
+                            <div class="grid_item">
+                                <div class="item__img">
+                                    <img src="img/2.png">
+                                </div>
+                                <h3 class="item__title">What we do</h3>
+                                <div class="item__text">
+                                    <ul>
+                                        <li>Many desktop publishing packages and web page</li>
+                                        <li>There are many variations of passages of Lorem Ipsum available, but the majority have</li>
+                                        <li>Various versions have evolved over the years, sometimes by accident</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid_wrap">
+                            <div class="grid_item">
+                                <div class="item__img">
+                                    <img src="img/3.png">
+                                </div>
+                                <h3 class="item__title">Technology</h3>
+                                <div class="item__text">
+                                    <ul>
+                                        <li>The point of using Lorem Ipsum</li>
+                                        <li>As opposed to using 'Content here, content here'</li>
+                                        <li>Contrary to popular belief, Lorem Ipsum is not simply random text</li>
+                                        <li>A Latin professor at Hampden-Sydney College in Virginia</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="background">
+                    <div class="container">
+                    <div id="write__comment" class="comment">
+                        <div class="comment__wrap-write">
+                            <div class="comment__wrap-p">
+                                <div class="comment__write">
+                                    <h3>Write comment</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comment__wrap-form">
+                            <div class="comment__form">
+                                <div class="comment__input-title">
+                                    <input type="text" placeholder="Title">
+                                </div>
+                                <div class="comment__textarea-comment">
+                                    <textarea name="comment" placeholder="Your comment"></textarea>
+                                </div>
+                                <div class="comment__button">
+                                    <input type="submit" value="SEND">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>   
+            </div>
+        </div>
+    </main>
+    <footer>
+            <div class="container">
+                <div class="footer">
+                    <div class="footer__info">
+                        <div class="footer__mail-number">
+                            <p>mail@mailtest.com</p>
+                            <span><p>+30-6977664062</p></span>
+                        </div>
+                        <div class="footer__data">
+                            <p>Copyright <span>&#169;</span> 2019 Test All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+
+    jQuery(document).ready(function () {
+        jQuery("#toggle-button").click(function () {
+            jQuery("#toggle-menu").toggle();
+        });
+    });
+</script>

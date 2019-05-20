@@ -1,0 +1,112 @@
+p{
+   color: #101417;
+   line-height: 1.5;
+   color: #101417;
+}
+h1{
+    font-size: 48px;
+}
+.write__input a:hover{
+    border-bottom: 1px solid #a8a8a9;
+}
+
+.write__wrap-one{
+    max-width: 1266px;
+    margin: 0 auto;  
+}
+.write__wrap-two{
+    max-width: 1186px;
+    margin: 0 auto;
+}
+.write__comment-wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.write__comment-container{
+    max-width: 772px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ededef;
+}
+.main-container__comments-write{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.write__text{
+    margin-top: 57px;
+    padding-bottom: 50px;
+}
+.write__text__p{
+   margin-top: 45px;   
+}
+.write__text__p-second{
+    padding-top: 40px;
+}
+.write__input{
+    margin-top: 60px;
+}
+.write__input a{
+    color: #1d1e25;
+}
+.write__input img{
+        margin-right: 15px;
+}
+
+
+.footer__mail-number p{
+    color: #eaeaea;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+        main{
+            margin-left: 20%;
+            width: 500px;
+        }
+}
+@media (max-width: 720px) {
+        h1{
+            font-size: 40px;
+        }
+        main{
+            margin-left: 10%;
+            width: 400px;
+        }
+}
+@media (max-width: 500px) {
+        h1{
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+        main{
+            width: 300px;
+        }
+}
+@media (max-width: 400px) {
+        h1{
+            font-size: 15px;
+        }
+        p{
+            font-size: 10px;
+        }
+        main{
+            margin-left: 10%;
+            width: 200px;
+        }
+        .back-home__text h3{
+            font-size: 15px;
+        }
+        .back-home__button button{
+            height: 40px;
+            width: 140px;
+            font-size: 8px;
+        }
+        .back-home__button img{
+            height: 8px;
+        }
+}
