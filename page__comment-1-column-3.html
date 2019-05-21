@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Write Comments</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style__comments.css">
+    <link rel="stylesheet" type="text/css" href="style__write-comments.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container">
+        <div class="header">
+            <header>
+                    <section class="header__wrapper">
+
+                            <div class="header__logo"><img src="img/logo.png" alt=""></div>
+
+                            <div class="nav-menu">
+                                <nav class="desktop">
+                                    <section class="topnav" id="mytopnav_desktop">
+                                        <a href="index.html">ABOUT US</a>
+                                        <a href="#">WRITE COMMENT</a>
+                                        <a href="comments__all.html">COMMENTS</a>
+                                    </section>
+                                </nav>
+
+                                <nav class="mobile">
+                                    <section class="topnav" id="mytopnav_mobile">
+
+                                        <div class="toggle-button" id="toggle-button">&#9776;</div>
+                                        <div class="toggle-menu" id="toggle-menu">
+                                            <ul>
+                                                <li><a href="index.html">ABOUT US</a></li>
+                                                <li><a href="#">WRITE COMMENT</a></li>
+                                                <li><a href="comments__all.html">COMMENTS</a></li>
+                                            </ul>
+                                        </div>
+                                    </section>
+                                </nav>
+                            </div>
+                    </section>
+            </header>
+        </div>
+    </div>
+    <main>
+    	<div class="container">
+    		<div class="write__wrap-one">
+    			<div class="write__wrap-two">
+    				<div class="write__comment-wrap">
+    					<div class="write__comment-container">
+    						<div class="write__input">
+    						    <img src="img/pointer.png" alt="pointer"><a href="comments__all.html">Back to Comments</a> 
+		    				</div>
+		    				<div class="write__text">
+		    					<h1>If you are going to use a passage</h1>
+
+		    					<p class="write__text__p">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+
+								<p class="write__text__p-second">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.</p>
+		    				</div>
+    					</div>
+
+    					<div class="main-container__comments main-container__comments-write">
+		    			    <div class="back-home__wrap">
+		    			    	<div class="back-home__text">
+			    		            <h3>Lorem Ipsum is text of the typesetting industry</h3>
+			    		        </div>
+			    		        <div class="back-home__button">
+			    		            <a href="index.html"><button><img src="img/pointer.png" alt="pointer">Back to homepage</button></a>
+			    		         </div>
+		    			    </div>
+		    	        </div>
+
+    				</div>    				
+      		    </div>
+    		</div>
+    	</div>
+    </main>
+    <footer>
+            <div class="container">
+                <div class="footer">
+                    <div class="footer__info">
+                        <div class="footer__mail-number">
+                            <p class="comments__p">mail@mailtest.com</p>
+                            <span><p class="comments__p">+30-6977664062</p></span>
+                        </div>
+                        <div class="footer__data">
+                            <p class="comments__p">Copyright <span>&#169;</span> 2019 Test All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script>
+
+    jQuery(document).ready(function () {
+        jQuery("#toggle-button").click(function () {
+            jQuery("#toggle-menu").toggle();
+        });
+    });
+</script>
